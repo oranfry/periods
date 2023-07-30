@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Periods\\": ""
+        }
+    },
+    "name": "oranfry/periods",
+    "require": {
+        "php": ">=8.1"
+    }
+}
