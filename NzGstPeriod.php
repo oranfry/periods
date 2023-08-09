@@ -52,6 +52,6 @@ class NzGstPeriod extends Period
 
     public function label(): string
     {
-        return 'Financial Year';
+        return 'GST Period';
     }
 }
