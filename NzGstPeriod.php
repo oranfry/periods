@@ -23,10 +23,10 @@ class NzGstPeriod extends Period
     public function _chunkLabel(?string $from, ?string $to): string
     {
         $y1 = date('Y', strtotime($from));
-        $y2 = date('Y', strtotime(date_shift($from, '+1 month')));
+        $y2 = date('Y', strtotime(static::dateShift($from, '+1 month')));
 
         $m1 = date('M', strtotime($from));
-        $m2 = date('M', strtotime(date_shift($from, '+1 month')));
+        $m2 = date('M', strtotime(static::dateShift($from, '+1 month')));
 
         $id = $this->_chunkID($from, $to);
 

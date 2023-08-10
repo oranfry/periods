@@ -21,7 +21,7 @@ class NzFinancialYear extends Period
 
     protected function _start(string $date): ?string
     {
-        return date('Y-04-01', strtotime(date_shift($date, '-3 month')));
+        return date('Y-04-01', strtotime(static::dateShift($date, '-3 month')));
     }
 
     public function label(): string

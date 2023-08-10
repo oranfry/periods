@@ -29,7 +29,7 @@ class Week extends Period
 
     protected function _start(string $date): ?string
     {
-        $date = date('Y-m-d', strtotime(date_shift($date, '-6 days')));
+        $date = date('Y-m-d', strtotime(static::dateShift($date, '-6 days')));
 
         while (date('D', strtotime($date)) != static::$day) {
             $date = static::dateShift($date, '+1 day');
