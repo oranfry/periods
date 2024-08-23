@@ -1,7 +1,7 @@
 {
     "autoload": {
         "psr-4": {
-            "Periods\\": ""
+            "Periods\\": "classes"
         }
     },
     "name": "oranfry/periods",

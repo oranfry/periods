@@ -1,10 +1,10 @@
 <?php
 
-require dirname(__DIR__) . '/Period.php';
-require dirname(__DIR__) . '/Chunk.php';
-require dirname(__DIR__) . '/Exceptions/InvalidDateException.php';
-require dirname(__DIR__) . '/SundayFortnightBase.php';
-require dirname(__DIR__) . '/SundayFortnightA.php';
+require dirname(__DIR__) . '/classes/Period.php';
+require dirname(__DIR__) . '/classes/Chunk.php';
+require dirname(__DIR__) . '/classes/Exceptions/InvalidDateException.php';
+require dirname(__DIR__) . '/classes/SundayFortnightBase.php';
+require dirname(__DIR__) . '/classes/SundayFortnightA.php';
 
 $sf = new \Periods\SundayFortnightA;
 

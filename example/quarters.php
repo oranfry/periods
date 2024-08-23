@@ -1,15 +1,15 @@
 <?php
 
-require dirname(__DIR__) . '/Period.php';
-require dirname(__DIR__) . '/Chunk.php';
-require dirname(__DIR__) . '/Exceptions/InvalidDateException.php';
-require dirname(__DIR__) . '/Quarter.php';
-require dirname(__DIR__) . '/QuarterMinus3.php';
-require dirname(__DIR__) . '/QuarterMinus2.php';
-require dirname(__DIR__) . '/QuarterMinus1.php';
-require dirname(__DIR__) . '/QuarterPlus1.php';
-require dirname(__DIR__) . '/QuarterPlus2.php';
-require dirname(__DIR__) . '/QuarterPlus3.php';
+require dirname(__DIR__) . '/classes/Period.php';
+require dirname(__DIR__) . '/classes/Chunk.php';
+require dirname(__DIR__) . '/classes/Exceptions/InvalidDateException.php';
+require dirname(__DIR__) . '/classes/Quarter.php';
+require dirname(__DIR__) . '/classes/QuarterMinus3.php';
+require dirname(__DIR__) . '/classes/QuarterMinus2.php';
+require dirname(__DIR__) . '/classes/QuarterMinus1.php';
+require dirname(__DIR__) . '/classes/QuarterPlus1.php';
+require dirname(__DIR__) . '/classes/QuarterPlus2.php';
+require dirname(__DIR__) . '/classes/QuarterPlus3.php';
 
 $quarter_names = [
     'QuarterMinus3',
