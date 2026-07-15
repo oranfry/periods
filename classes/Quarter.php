@@ -1,6 +1,6 @@
 <?php
 
-namespace Periods;
+namespace OranFry\Periods;
 
 class Quarter extends Period
 {

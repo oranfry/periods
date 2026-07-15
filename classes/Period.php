@@ -1,8 +1,6 @@
 <?php
 
-namespace Periods;
-
-use Periods\Chunk;
+namespace OranFry\Periods;
 
 class Period
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Periods;
+namespace OranFry\Periods;
 
 class Year extends Period
 {

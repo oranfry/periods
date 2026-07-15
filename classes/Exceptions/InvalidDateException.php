@@ -1,6 +1,6 @@
 <?php
 
-namespace Periods\Exceptions;
+namespace OranFry\Periods\Exceptions;
 
 class InvalidDateException extends \Exception
 {
