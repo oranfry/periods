@@ -2,8 +2,6 @@
 
 namespace OranFry\Periods;
 
-use Periods\Period;
-
 class Chunk
 {
     protected string $end;
